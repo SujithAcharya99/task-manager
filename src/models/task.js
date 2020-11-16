@@ -13,17 +13,7 @@ const Task = mongoose.model('Task', {
         required: true,
         default : false
     }
-})
+});
 
-// const task = new Task({
-//     description: 'Task-app',
-//     completed: true
-// });
-
-// task.save().then(() => {
-//     console.log(task);
-// }).catch((error) => {
-//     console.log(error);
-// });
 
 module.exports = Task;
